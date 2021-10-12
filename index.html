@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="./style.css" />
+		<script
+			src="https://kit.fontawesome.com/91ca498d3c.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Youtube</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="nav__left">
+					<i class="fas fa-bars"></i>
+					<img src="./youtube-logo.png" />
+				</div>
+
+				<div class="nav__middle">
+					<div class="search">
+						<input type="text" placeholder="Search" />
+						<button type="button">
+							<i class="fas fa-search"></i>
+						</button>
+					</div>
+					<i class="fas fa-microphone"></i>
+				</div>
+
+				<div class="nav__right">
+					<i class="fas fa-th"></i>
+					<i class="fas fa-ellipsis-v"></i>
+					<button>
+						<i class="far fa-user-circle"></i>
+						Sign in
+					</button>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="video">
+				<iframe
+					class="video-iframe"
+					width=""
+					height="315"
+					src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
+				<div class="video__info">
+					<h1 class="video__title">
+						Rick Astley - Never Gonna Give You Up (Official Music Video)
+					</h1>
+					<div class="video__statistics">
+						<div class="views">1,066,843,807 views - Oct 25, 2009</div>
+						<div class="widgets">
+							<div class="likes">
+								<strong>12M</strong>
+								<i class="fas fa-thumbs-up black"></i>
+							</div>
+							<div class="dislikes">
+								<strong>326K</strong>
+								<i class="fas fa-thumbs-down black"></i>
+							</div>
+							<div class="share">
+								<i class="fas fa-share black"></i>
+								SHARE
+							</div>
+							<div class="save">
+								<i class="fas fa-plus black"></i>
+								SAVE
+							</div>
+							<i class="fas fa-ellipsis-h black"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sidebar"></div>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+}
+
+.fas {
+	color: white;
+}
+
+.fas:hover {
+	cursor: pointer;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #282828fa;
+	height: 55px;
+}
+
+.nav__left {
+	display: flex;
+	align-items: center;
+}
+
+.nav__left > i {
+	margin-left: 15px;
+}
+
+.nav__left > img {
+	width: 100px;
+	margin-left: 10px;
+}
+
+.nav__middle {
+	display: flex;
+}
+
+.fa-microphone {
+	margin-left: 5px;
+}
+
+.search {
+	display: flex;
+}
+
+.search > input {
+	border: 1px solid rgb(49, 49, 49);
+	background-color: rgba(0, 0, 0, 0.55);
+	color: white;
+}
+
+.search > button {
+	background-color: #393939;
+	border: 1px solid rgb(49, 49, 49);
+}
+
+.search > button > i {
+	color: #fff;
+	size: 10px;
+}
+
+.video-iframe {
+	width: 100vw;
+	height: 75vh;
+}
+
+.video__title {
+	font-weight: 400;
+	font-size: 1.4em;
+}
+
+.black {
+	color: black;
+}
+
+.video__statistics {
+	display: flex;
+	justify-content: space-between;
+	width: 70vw;
+}
+
+.widgets {
+	display: flex;
+}
+
+.widgets > div {
+	margin-right: 30px;
+}
